@@ -68,6 +68,8 @@ meta_glasses_dashboard/ │
   ├── review_embeddings.pkl   # optional but recommended 
   |── requirements.txt
 
+---
+
 ## How It Works
 
 ### **1. Load Data**
