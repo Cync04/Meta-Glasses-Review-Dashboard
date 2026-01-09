@@ -18,7 +18,7 @@ def load_top_words():
 
 @st.cache_resource
 def load_bertopic():
-    return BERTopic.load("bertopic_model")
+    return BERTopic.load("bertopic_model_minimal.pkl")
 
 model = load_model()
 top_words, top_scores = load_top_words()
@@ -297,4 +297,5 @@ elif selected_tab == "Review Similarity Search":
                     st.write(f"**Rating:** {row['rating']}")
                     st.write(f"**Helpfulness:** {row['helpfulness_score']}")
                     st.write(row["review"])
+
                     st.markdown("---")
