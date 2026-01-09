@@ -55,19 +55,24 @@ An interactive Streamlit dashboard that analyzes thousands of Meta Glasses custo
 - **matplotlib / seaborn / plotly**
 - **joblib**
 
+## Project Structure
 ---
 
-## Project Structure
-meta_glasses_dashboard/ │ 
-  ├── app.py 
-  ├── Meta-Glasses-Reviews.csv 
-  ├── helpfulness_model.pkl 
-  ├── top_words.pkl ├
-  |── bertopic_model/ 
-  ├── review_similarity.py 
-  ├── review_embeddings.pkl   # optional but recommended 
-  |── requirements.txt
-
+meta-glasses-review-dashboard/
+- app.py
+- Meta-Glasses-Reviews.csv
+- helpfulness_model.pkl
+- top_words.pkl
+- review_embeddings.pkl          # optional but recommended
+- review_similarity.py
+- requirements.txt
+- README.md
+- bertopic_model/
+  - topic_model.pkl
+  - ctfidf.pkl
+  - umap_model.pkl
+  - hdbscan_model.pkl
+  - ... (other BERTopic files)
 ---
 
 ## How It Works
