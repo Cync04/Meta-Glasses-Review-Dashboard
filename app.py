@@ -141,6 +141,8 @@ elif selected_tab == "Helpfulness Prediction Model":
         st.session_state.active_tab = "Helpfulness Prediction Model"
         if len(user_review.strip()) == 0:
             st.warning("Please enter a review before predicting.")
+        elif len(user_review.strip() < 8):
+            st.warning("Review length is too short to accurately predict helpfulness.")
         else:
             new_df = pd.DataFrame({"review": [user_review], "rating": [user_rating]})
             prediction = model.predict(new_df)[0]
