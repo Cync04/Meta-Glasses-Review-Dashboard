@@ -1,6 +1,8 @@
 # Meta-Glasses-Review-Dashboard
 An interactive Streamlit dashoboard analyzing 10,000 Meta Glasses Customer Reviews using ML and NLP. Built with Python, scikit-learn, BERTopic, and Streamlit.
 
+Link: https://meta-glasses-review-dashboard-9guxzqedftampodcrk6t3x.streamlit.app/
+
 # Meta Glasses Review Analytics Dashboard
 
 An interactive Streamlit dashboard that analyzes thousands of Meta Glasses customer reviews using machine learning, NLP, and semantic similarity search. This project combines classical ML, modern topic modeling, and deep‑learning embeddings to provide insights into customer sentiment, review helpfulness, and thematic patterns.
